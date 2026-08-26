@@ -1,0 +1,455 @@
+IsReplacementOrder:
+  nullable: false
+  pg_type: character varying(3)
+  py_type: str
+billAddress1:
+  nullable: false
+  pg_type: character varying(127)
+  py_type: str
+billAddress2:
+  nullable: false
+  pg_type: character varying(6)
+  py_type: str
+billAddress3:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+billCity:
+  nullable: false
+  pg_type: character varying(18)
+  py_type: str
+billCountry:
+  nullable: false
+  pg_type: character varying(7)
+  py_type: str
+billEmail1:
+  nullable: false
+  pg_type: character varying(51)
+  py_type: str
+billEmail2:
+  nullable: false
+  pg_type: character varying(51)
+  py_type: str
+billName:
+  nullable: false
+  pg_type: character varying(28)
+  py_type: str
+billPhone1:
+  nullable: false
+  pg_type: bigint
+  py_type: int
+billPhone2:
+  nullable: false
+  pg_type: bigint
+  py_type: int
+billPincode:
+  nullable: false
+  pg_type: integer
+  py_type: int
+billState:
+  nullable: true
+  pg_type: character varying(22)
+  py_type: str
+cancelRemark:
+  nullable: false
+  pg_type: character varying(25)
+  py_type: str
+channelCode:
+  nullable: false
+  pg_type: character varying(4)
+  py_type: str
+channelName:
+  nullable: false
+  pg_type: character varying(22)
+  py_type: str
+channelType:
+  nullable: true
+  pg_type: numeric(5,1)
+  py_type: float
+channelTypeDesc:
+  nullable: true
+  pg_type: character varying(27)
+  py_type: str
+clientId:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+codcharge:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+collectibleAmount:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+conversionRate:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+customDataFeld1:
+  nullable: false
+  pg_type: character varying(57)
+  py_type: str
+customDataFeld10:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+customDataFeld2:
+  nullable: false
+  pg_type: character varying(28)
+  py_type: str
+customDataFeld3:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+customDataFeld4:
+  nullable: false
+  pg_type: character varying(4)
+  py_type: str
+customDataFeld5:
+  nullable: false
+  pg_type: character varying(24)
+  py_type: str
+customDataFeld6:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+customDataFeld7:
+  nullable: false
+  pg_type: character varying(7)
+  py_type: str
+customDataFeld8:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+customDataFeld9:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+customDataField11:
+  nullable: true
+  pg_type: smallint
+  py_type: int
+customDataField12:
+  nullable: true
+  pg_type: smallint
+  py_type: int
+customDataField13:
+  nullable: true
+  pg_type: smallint
+  py_type: int
+customDataField14:
+  nullable: true
+  pg_type: smallint
+  py_type: int
+customDataField15:
+  nullable: true
+  pg_type: smallint
+  py_type: int
+customerCode:
+  nullable: false
+  pg_type: integer
+  py_type: int
+customerGSTIN:
+  nullable: true
+  pg_type: smallint
+  py_type: int
+customerName:
+  nullable: false
+  pg_type: character varying(28)
+  py_type: str
+delFulfillmentMode:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+deliverySlot:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+discountAmount:
+  nullable: false
+  pg_type: numeric(6,2)
+  py_type: float
+discountCode:
+  nullable: false
+  pg_type: character varying(24)
+  py_type: str
+etl_batch_id:
+  nullable: true
+  pg_type: character varying(50)
+  py_type: str
+etl_inserted_at:
+  default: CURRENT_TIMESTAMP
+  nullable: false
+  pg_type: timestamp with time zone
+  py_type: datetime
+etl_source:
+  nullable: true
+  pg_type: character varying(50)
+  py_type: str
+etl_updated_at:
+  default: CURRENT_TIMESTAMP
+  nullable: false
+  pg_type: timestamp with time zone
+  py_type: datetime
+extCustomerCode:
+  nullable: false
+  pg_type: integer
+  py_type: int
+extFulFillmentLocCode:
+  nullable: false
+  pg_type: character varying(13)
+  py_type: str
+extenalOrderNo:
+  nullable: false
+  pg_type: character varying(54)
+  py_type: str
+fulfillmentLocCode:
+  nullable: false
+  pg_type: character varying(4)
+  py_type: str
+fulfillmentLocName:
+  nullable: false
+  pg_type: character varying(58)
+  py_type: str
+geoAddress:
+  nullable: true
+  pg_type: text
+  py_type: str
+geoLatitude:
+  nullable: true
+  pg_type: text
+  py_type: str
+geoLongitude:
+  nullable: true
+  pg_type: text
+  py_type: str
+geoType:
+  nullable: true
+  pg_type: text
+  py_type: str
+giftvoucher:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+giftwrapMsg:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+handlingCharge2:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+identificationCode:
+  nullable: true
+  pg_type: smallint
+  py_type: int
+identificationId:
+  nullable: true
+  pg_type: smallint
+  py_type: int
+isGiftwrap:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+isOnHold:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+isVerifiedOrder:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+landmark:
+  nullable: true
+  pg_type: smallint
+  py_type: int
+latitude:
+  nullable: true
+  pg_type: numeric(8,6)
+  py_type: float
+longitude:
+  nullable: true
+  pg_type: numeric(8,6)
+  py_type: float
+masterorderNo:
+  nullable: false
+  pg_type: character varying(54)
+  py_type: str
+mode:
+  nullable: false
+  pg_type: character varying(4)
+  py_type: str
+month:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+orderAmount:
+  nullable: false
+  pg_type: numeric(6,2)
+  py_type: float
+orderCurrency:
+  nullable: true
+  pg_type: character varying(4)
+  py_type: str
+orderDate:
+  nullable: false
+  pg_type: timestamp
+  py_type: datetime
+orderId:
+  nullable: false
+  pg_type: character varying(15)
+  primary_key: true
+  py_type: str
+orderLocation:
+  nullable: false
+  pg_type: character varying(4)
+  py_type: str
+orderNo:
+  nullable: false
+  pg_type: character varying(54)
+  py_type: str
+orderRemarks:
+  nullable: true
+  pg_type: character varying(4)
+  py_type: str
+orderSource:
+  nullable: false
+  pg_type: character varying(4)
+  py_type: str
+orderSourceName:
+  nullable: false
+  pg_type: character varying(22)
+  py_type: str
+orderType:
+  nullable: false
+  pg_type: character varying(3)
+  py_type: str
+order_tags:
+  nullable: true
+  pg_type: jsonb
+  py_type: json
+originalOrderno:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+otherDiscount:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+otherTaxAmount:
+  nullable: false
+  pg_type: jsonb
+  py_type: json
+paymentMethod:
+  nullable: false
+  pg_type: character varying(10)
+  py_type: str
+pickingInstruction:
+  nullable: true
+  pg_type: text
+  py_type: str
+pickupLocation:
+  nullable: true
+  pg_type: smallint
+  py_type: int
+priority:
+  nullable: false
+  pg_type: character varying(9)
+  py_type: str
+processAfterDate:
+  nullable: false
+  pg_type: character varying(28)
+  py_type: str
+promoCode:
+  nullable: true
+  pg_type: text
+  py_type: str
+promoName:
+  nullable: true
+  pg_type: text
+  py_type: str
+shipAddress1:
+  nullable: false
+  pg_type: character varying(127)
+  py_type: str
+shipAddress2:
+  nullable: false
+  pg_type: character varying(6)
+  py_type: str
+shipAddress3:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+shipByDate:
+  nullable: false
+  pg_type: character varying(28)
+  py_type: str
+shipCity:
+  nullable: false
+  pg_type: character varying(18)
+  py_type: str
+shipCountry:
+  nullable: false
+  pg_type: character varying(7)
+  py_type: str
+shipEmail1:
+  nullable: false
+  pg_type: character varying(51)
+  py_type: str
+shipEmail2:
+  nullable: false
+  pg_type: character varying(51)
+  py_type: str
+shipPhone1:
+  nullable: false
+  pg_type: bigint
+  py_type: int
+shipPhone2:
+  nullable: false
+  pg_type: bigint
+  py_type: int
+shipPincode:
+  nullable: false
+  pg_type: integer
+  py_type: int
+shipState:
+  nullable: true
+  pg_type: character varying(22)
+  py_type: str
+shippingCharges:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+shippingInstruction:
+  nullable: true
+  pg_type: text
+  py_type: str
+status:
+  nullable: false
+  pg_type: character varying(13)
+  py_type: str
+storeCredit:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+taxAmount:
+  nullable: false
+  pg_type: numeric(5,2)
+  py_type: float
+totalOrderLine:
+  nullable: false
+  pg_type: smallint
+  py_type: int
+updatedDate:
+  nullable: false
+  pg_type: character varying(28)
+  py_type: str
+userConsent:
+  nullable: true
+  pg_type: character varying(4)
+  py_type: str
+year:
+  nullable: false
+  pg_type: smallint
+  py_type: int
